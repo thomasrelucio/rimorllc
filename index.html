@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GIS Consultant experienced in utilities, asset management, and spatial data geodatabases.">
-  <title>Rimor, LLC GIS Services | Thomas Relucio</title>
+  <meta name="description" content="Professional GIS consulting to transform your data into actionable maps and geodatabases.">
+  <title>Rimor LLC | GIS Consulting by Thomas Relucio</title>
   <style>
     :root {
       --dark-bg: #2b2b2b;
       --primary-green: #00a884;
-      --accent-green: #00796b;
+      --accent-teal: #00796b;
       --light-bg: #ffffff;
       --text-color: #333333;
       --muted-text: #555555;
-      --card-shadow: rgba(0, 0, 0, 0.1);
+      --shadow-color: rgba(0,0,0,0.1);
     }
 
     body {
@@ -28,14 +28,15 @@
     header {
       background-color: var(--dark-bg);
       color: #fff;
-      padding: 3rem 1rem 2rem;
       text-align: center;
-      box-shadow: 0 2px 6px var(--card-shadow);
+      padding: 3rem 1rem 2rem;
+      box-shadow: 0 2px 6px var(--shadow-color);
     }
 
     header h1 {
       margin: 0;
       font-size: 2.5rem;
+      letter-spacing: 0.5px;
     }
 
     header p {
@@ -44,4 +45,79 @@
       max-width: 700px;
       margin-left: auto;
       margin-right: auto;
-      color: #
+      color: #ccc;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: var(--light-bg);
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px var(--shadow-color);
+      backdrop-filter: blur(4px);
+    }
+
+    h2 {
+      color: var(--primary-green);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent-teal);
+      display: inline-block;
+      padding-bottom: 0.2rem;
+    }
+
+    p {
+      color: var(--muted-text);
+      font-size: 1.05rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1.5rem;
+      background: #e1e4e6;
+      color: #666;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rimor GIS Consulting</h1>
+    <p>Precision Mapping & Geodatabase Solutions for Confident Decision-Making</p>
+  </header>
+
+  <section>
+    <h2>Our Approach</h2>
+    <p>
+      Let’s work together to transform your data into clear, actionable maps and well-structured geodatabases that support confident decision-making. 
+      I focus on precision—carefully mapping every point, line, and polygon, and building reliable geodatabases tailored to your needs. 
+      Whether you’re managing utilities, coordinating engineering projects, or maintaining critical infrastructure, I’ll help turn raw data into a solid foundation for smarter strategies. 
+      Together, we can make your spatial data work for you, enabling your team to plan effectively, respond quickly, and invest wisely. 
+      Let’s unlock the full potential of your data, one map at a time.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Interested in discussing your GIS project? Email me at: 
+      <a href="mailto:thomas@rimorllc.com">thomas@rimorllc.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Rimor GIS Consulting | Thomas Relucio
+  </footer>
+
+</body>
+</html>
